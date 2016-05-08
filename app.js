@@ -8,7 +8,6 @@ var request = require("request");
 
 
 //var site = "http://www.quandl.com/api/v3/datasets/YAHOO/INDEX_IBEX.json"
-//var site = "http://spancrow.hol.es/database/file2.json";
 var site = "http://spancrow.hol.es/database/file.json";
 function getData(cb){
 	http.get(site,function(res){
